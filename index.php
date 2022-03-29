@@ -1,7 +1,11 @@
+<?php
 
+// $name = 'Pietro';
 
+$text = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsum suscipit quod quibusdam quo. Atque molestias adipisci consectetur! Corporis accusantium officia pariatur magnam. Repellendus, ratione perferendis officia culpa ad nobis.';
+$lunghezza = strlen($text);
 
-
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +15,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Ciao a tutti</h1>
+    <p>
+        <?php echo $text ?>
+    </p>
+    <h1>
+        Il testo è lungo <?php echo $lunghezza ?> caratteri
+    </h1>
 </body>
 </html>
